@@ -1,0 +1,54 @@
+.cabecalho-titulo{
+
+    background-color: #76b9fa;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; 
+    justify-content: center;
+
+}
+.h1-cabecalho{
+    color: #212529;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.conometro{
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
+#start{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+#tempo{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#border{
+    width: 430px;
+    box-sizing: border-box;
+    border: solid;
+    display: flex;
+    border-color: black;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.buttons-header{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+
+}
+.header-about{
+    font-weight: bold;
+    color: black;
+    margin: 50px;
+
+}

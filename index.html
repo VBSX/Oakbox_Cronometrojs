@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1319169190566423"
+        crossorigin="anonymous">
+    </script>
+
+    <link rel="shortcut icon" href="images/conometro.png" type="image/x-icon">
+    <title>Oak Cronômetro</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho-titulo">
+            <a href="index.html">
+                <img src="images/conometro.png" alt="" style="height: 100px;">
+            </a>
+            <a href="index.html" class="h1-cabecalho">
+                <h1>Oakbox Cronômetro</h1>
+
+            </a>
+            <div class="buttons-header" >
+                <a href="https://oakbox.com.br/detalhes-do-projeto-zap-sem-add-contato/" class="header-about"  >
+                    Sobre
+                </a>
+                <a href="contato.php" class="header-about" >
+                   Contato
+                </a> 
+                <a href="https://oakbox.com.br/blog" class="header-about">
+                    Blog
+                </a>
+                <a href="https://oakbox.com.br/portofolio" class="header-about">
+                    Outros Projetos
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    
+    <div id="central">
+        
+    
+        <div class="conometro">
+            <div id="border">
+                <div id="start" >
+                    
+                    <button type="button" onclick="start();" id="start" class="btn btn-success" name="alterar_estado">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+                            <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"></path>
+                        </svg>
+                        Iniciar
+                    </button>
+                </div>
+                <div id="tempo" >
+                    <h2 id="counter">00:00:00</h1>
+                    <script src="scripts/conometrar.js">
+                        
+                    </script>
+                </div>
+                
+                <button onclick="pause();" class="btn btn-warning">Pausar</button>
+
+                <button onclick="stop();" class="btn btn-danger">
+                    <svg width="21px" height="21px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0 1 1 0 2.5 2.5)"><path d="m3.98652376 1.07807068c-2.38377179 1.38514556-3.98652376 3.96636605-3.98652376 6.92192932 0 4.418278 3.581722 8 8 8s8-3.581722 8-8-3.581722-8-8-8"/><path d="m4 1v4h-4" transform="matrix(1 0 0 -1 0 6)"/></g></svg>
+                </button>
+                </div>
+            </div>
+
+        
+   
+    </div>
+
+</body>
+</html>
